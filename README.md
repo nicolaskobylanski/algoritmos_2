@@ -1,3 +1,12 @@
+# Explicación del Algoritmo de Factorial
+
+## Introducción
+Este documento ofrece una explicación detallada del método recursivo utilizado para calcular el factorial de un número entero no negativo. El factorial de un número `n`, denotado como `n!`, es el producto de todos los enteros positivos menores o iguales a `n`.
+
+## Función Recursiva del Factorial
+
+La función `factorial` en Python utiliza un método recursivo para calcular el factorial de un número. Este método implica que la función se llame a sí misma con valores decrecientes hasta alcanzar un caso base simple. En términos prácticos, calcular el factorial de un número significa multiplicar ese número por el factorial del número anterior a él, y así sucesivamente, hasta que se llega al número uno. La recursión es efectiva aquí porque simplifica el cálculo al descomponer un problema grande (como calcular `n!`) en problemas más pequeños y manejables (como calcular `(n-1)!`, `(n-2)!`, etc.), hasta llegar al caso más simple, que es `0! = 1`.
+
 # Bubble Sort Explanation
 
 ## Objetivo
